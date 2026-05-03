@@ -1,11 +1,9 @@
-# Проект FitLife - MVP версия 1.0
 import sys
 import io
 
 if sys.platform == 'win32':
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-
-
+# Проект FitLife - MVP версия 1.0
 # Создаем константы
 WATER = 30
 ML_TO_L = 1000

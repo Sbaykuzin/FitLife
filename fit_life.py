@@ -36,7 +36,7 @@ water_needed = round(user_weight * WATER / ML_TO_L, 1)
 
 # Вывод красивого результата
 print("=" * 50)
-print(f'Отчет для пользователя: {name_user.title()}, возраст {user_age}')
+print(f'Отчет для пользователя: {name_user}, возраст {user_age}')
 print(f'Твой индекс массы тела - {bmi}')
 print(f'Необходимое потребление воды - {water_needed} л. в день')
 print("Расчет окончен. Будьте здоровы")
